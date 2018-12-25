@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.li.xiaohao.metrics.jetty.JettyMetricsAutoConfiguration,\
+  com.li.xiaohao.metrics.endpoint.CustomizeAutoConfiguration

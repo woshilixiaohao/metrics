@@ -1,0 +1,11 @@
+management.security.enabled: false
+management.security.roles: SUPERUSER
+management.health.status.order: FATAL, DOWN, OUT_OF_SERVICE, UNKNOWN, UP
+
+security.user.name: admin
+security.user.password: secret
+
+endpoints.health.id: springHealth
+endpoints.health.enabled: false
+endpoints.hypermedia.enabled: true
+endpoints.health.sensitive: false
